@@ -1,8 +1,8 @@
-<!-- Space: SlidesTemplate -->
+<!-- Space: SlidesDevSecOps -->
 <!-- Parent: Project -->
 <!-- Title: Components -->
 
-<!-- Label: SlidesTemplate -->
+<!-- Label: SlidesDevSecOps -->
 <!-- Label: Project -->
 <!-- Label: Components -->
 <!-- Include: docs/disclaimer.md -->

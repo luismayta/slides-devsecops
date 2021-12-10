@@ -1,4 +1,4 @@
-<!-- Space: SlidesTemplate -->
+<!-- Space: SlidesDevSecOps -->
 <!-- Parent: Project -->
 <!-- Title: Roadmap -->
 
@@ -30,7 +30,7 @@
 
 The Roadmap is a list of all the things we're working on for the year.
 
-You can see the corresponding projects on [slides-template](https://github.com/hadenlabs/slides-template)
+You can see the corresponding projects on [slides-devsecops](https://github.com/hadenlabs/slides-devsecops)
 
 ## Legend
 

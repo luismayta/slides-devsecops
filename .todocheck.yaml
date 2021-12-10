@@ -1,4 +1,4 @@
-origin: github.com/hadenlabs/slides-template
+origin: github.com/hadenlabs/slides-devsecops
 issue_tracker: GITHUB
 auth:
   type: none
