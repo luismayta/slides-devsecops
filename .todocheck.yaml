@@ -1,0 +1,10 @@
+origin: github.com/hadenlabs/slides-template
+issue_tracker: GITHUB
+auth:
+  type: none
+ignored:
+  - public/
+  - vendor/
+  - node_modules/
+custom_todos:
+  - '@fix'
