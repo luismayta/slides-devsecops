@@ -1,8 +1,8 @@
-<!-- Space: SlidesTemplate -->
+<!-- Space: SlidesDevSecOps -->
 <!-- Parent: Project -->
 <!-- Title: Releasing -->
 
-<!-- Label: SlidesTemplate -->
+<!-- Label: SlidesDevSecOps -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
 <!-- Include: docs/disclaimer.md -->
@@ -12,7 +12,7 @@
 
 ## Bump a new version
 
-Make a new version of slides-template in the following steps:
+Make a new version of slides-devsecops in the following steps:
 
 - Make sure everything is commit to github.com.
 - Update `CHANGELOG.md` with the next version.

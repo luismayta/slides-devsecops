@@ -1,6 +1,10 @@
-<!-- Space: SlidesTemplate -->
+<!-- Space: SlidesDevSecOps -->
 <!-- Parent: Project -->
 <!-- Title: Code of Conduct -->
+
+<!-- Label: Code of Conduct -->
+<!-- Include: docs/disclaimer.md -->
+<!-- Include: ac:toc -->
 
 # Contributor Covenant Code of Conduct
 

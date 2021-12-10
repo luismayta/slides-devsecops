@@ -21,7 +21,7 @@ on:
 
 env:
   TARGET_BRANCH: gh-pages
-  TARGET_CNAME: hadenlabs.github.io/slides-template
+  TARGET_CNAME: hadenlabs.github.io/slides-devsecops
   COMMIT_AUTHOR: '@dum-u'
   COMMIT_EMAIL: 'dum-u@hadenlabs.com'
 

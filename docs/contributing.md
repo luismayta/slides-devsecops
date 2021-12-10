@@ -1,8 +1,8 @@
-<!-- Space: SlidesTemplate -->
+<!-- Space: SlidesDevSecOps -->
 <!-- Parent: Project -->
 <!-- Title: Contributing -->
 
-<!-- Label: SlidesTemplate -->
+<!-- Label: SlidesDevSecOps -->
 <!-- Label: Project -->
 <!-- Label: Contributing -->
 <!-- Include: docs/disclaimer.md -->
@@ -10,11 +10,11 @@
 
 # How To Contribute
 
-Contributions to slides-template are welcome.
+Contributions to slides-devsecops are welcome.
 
 Feel free to use all of the contribution options:
 
-- Contribute to slides-template repositories on [GitHub](https://github.com/hadenlabs/slides-template). See [Git flow](./contribute/git-flow.md).
+- Contribute to slides-devsecops repositories on [GitHub](https://github.com/hadenlabs/slides-devsecops). See [Git flow](./contribute/git-flow.md).
 
 ## Getting Started
 
@@ -75,7 +75,7 @@ See [Git flow](./contribute/git-flow.md).
 
 ### Documentation
 
-Documentation is a part of the slides-template code base. You can find the documentation files in the `doc/` subdirectory of the [main repository](https://github.com/hadenlabs/slides-template). This means that the contribution process is the same for both the source code and documentation.
+Documentation is a part of the slides-devsecops code base. You can find the documentation files in the `doc/` subdirectory of the [main repository](https://github.com/hadenlabs/slides-devsecops). This means that the contribution process is the same for both the source code and documentation.
 
 ### Testing
 
@@ -83,15 +83,15 @@ See [Testing](./testing.md).
 
 ### Code Submission
 
-1.  See if a [Pull Request](https://github.com/hadenlabs/slides-template/pulls) exists
+1.  See if a [Pull Request](https://github.com/hadenlabs/slides-devsecops/pulls) exists
     - Add some comments or review the code to help it along
     - Don\'t be afraid to comment when logic needs clarification
-2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/slides-template/pulls) if needed
+2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/slides-devsecops/pulls) if needed
 
 ### Code Review
 
 - Anyone can review code
-- Any [Pull Request](https://github.com/hadenlabs/slides-template/pulls) should be closed or merged within a week
+- Any [Pull Request](https://github.com/hadenlabs/slides-devsecops/pulls) should be closed or merged within a week
 
 ### Code Acceptance
 
