@@ -11,6 +11,8 @@ import ImageScrumFiveMinutes from '/static/images/scrum5minutes.jpg';
 import ImageScrum from '/static/images/scrum.png';
 import ImageScrumGoals from '/static/images/scrumgoals.png';
 
+import ImageDevOps from '/static/images/devops.png';
+
 import 'prismjs/components/prism-shell-session'
 import "prismjs/components/prism-hcl"
 import "prismjs/components/prism-markdown"
@@ -314,7 +316,9 @@ export const theme = myTheme;
 
 <FlexLayout>
 
-<Image src={ImageScrumFiveMinutes} />
+<Image
+  src={ImageScrumFiveMinutes}
+  style={{ backgroundSize: '70%' }} />
 
 </FlexLayout>
 
@@ -335,6 +339,51 @@ export const theme = myTheme;
 <Image
   src={ImageScrumGoals}
   style={{ backgroundSize: 'auto' }} />
+
+</FlexLayout>
+
+---
+
+<FlexLayout>
+
+## DevOps.
+
+<Image src={ImageDevOps} />
+
+</FlexLayout>
+
+---
+
+<FlexLayout>
+
+## Principles DevOps.
+
+- Agility
+- Automation
+- Collaboration
+- Comments
+
+</FlexLayout>
+
+---
+
+<FlexLayout>
+
+## Core Practices DevOps.
+
+- Continuous integration
+- Configuration management
+- Continuous Deployment
+- Continuous delivery
+- Continuous learning
+
+</FlexLayout>
+
+---
+
+<FlexLayout>
+
+<Image src={ImageContinousImprovement} style={{ backgroundSize: '55%' }} />
 
 </FlexLayout>
 
