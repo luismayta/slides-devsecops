@@ -42,6 +42,7 @@ requirements: |-
 
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
+  - [gomplate](https://github.com/hairyhenderson/gomplate)
   - [python](https://www.python.org)
   - [taskfile](https://github.com/go-task/task)
 
@@ -49,3 +50,10 @@ requirements: |-
 description: |-
 
   slides-devsecops for project
+
+# How to use this project
+usage: |-
+
+  ```bash
+  yarn start
+  ```
