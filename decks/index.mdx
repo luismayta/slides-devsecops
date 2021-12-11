@@ -18,6 +18,7 @@ import ImageDevSecOps from '/static/images/devsecops.png';
 import ImageMainDevSecOps from '/static/images/MainDevSecOps.png';
 
 import ImageCloudComputing from '/static/images/cloud-computing.png';
+import ImageStepsPerformedHacker from '/static/steps-performed-by-hacker.png';
 
 import 'prismjs/components/prism-shell-session'
 import "prismjs/components/prism-hcl"
@@ -90,6 +91,7 @@ export const theme = myTheme;
 ## Agenda
 
 - Steps Performed by hacker.
+- Resources
 - Owasp
 
 </FlexLayout>
@@ -222,7 +224,7 @@ export const theme = myTheme;
 
 ## Script Kiddies.
 
-- Use scripts and programs developed bu others.
+- Use scripts and programs developed but others.
 - Can cause serious problems.
 
 </FlexLayout>
@@ -245,11 +247,24 @@ export const theme = myTheme;
 
 <FlexLayout>
 
+## Steps Performed Hacker.
+
+<Image
+  src={ImageStepsPerformedHacker}
+  style={{ backgroundSize: 'auto' }} />
+
+</FlexLayout>
+
+---
+
+<FlexLayout>
+
 ## Reconnaissance.
 
 - Google
-- Samspade
-- Email tracker and visual route
+- Wireshark
+- Shodan
+- Sherlock
 
 </FlexLayout>
 
@@ -259,9 +274,10 @@ export const theme = myTheme;
 
 ## Scanning.
 
-- War dialing and pingers
-- Port scanning
-- Enumeration
+- DirSearch
+- Nmap
+- Nikto
+- Metasploit
 
 </FlexLayout>
 
@@ -269,14 +285,13 @@ export const theme = myTheme;
 
 <FlexLayout>
 
-## Password cracking.
+## Gaining Access.
 
 - Dictionary Cracking
 - Brute Force Cracking
-- Hybrid Cracking
-- Social Enginneering
 - Metasploit
-- Man in the middle attack
+- Hydra
+- Wifi Pineapple
 
 </FlexLayout>
 
@@ -284,11 +299,38 @@ export const theme = myTheme;
 
 <FlexLayout>
 
-## maintaining Access.
+## Maintaining Access.
 
-- Key Stroke loggers
+- Keyloggers
 - Trojan Horses
 - Backdoors
+- Ngrok
+
+</FlexLayout>
+
+---
+
+<FlexLayout>
+
+## Clearing Tracks.
+
+- Shred
+- Secure-Delete
+
+</FlexLayout>
+
+---
+
+<FlexLayout direction="column" justify="space-evenly">
+
+## Resources.
+
+- [Penetration Testing Labs](https://www.hackthebox.com)
+- [vulnhub](https://www.vulnhub.com)
+- [kali](https://www.kali.org)
+- [zsh-hacker](https://github.com/hadenlabs/zsh-hacker)
+- [shop hak5](https://shop.hak5.org)
+- [Rubber Ducky](https://create.arduino.cc/projecthub/jithinsanal1610/hack-a-computer-using-arduino-rubber-ducky-c6575a?ref=user&ref_id=155352&offset=0)
 
 </FlexLayout>
 
@@ -410,11 +452,11 @@ export const theme = myTheme;
 
 ## Core Practices DevOps.
 
-- Continuous integration
-- Configuration management
+- Continuous Integration
+- Configuration Management
 - Continuous Deployment
-- Continuous delivery
-- Continuous learning
+- Continuous Delivery
+- Continuous Learning
 
 </FlexLayout>
 
