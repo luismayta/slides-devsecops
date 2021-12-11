@@ -247,6 +247,7 @@ title = "gitleaks config"
     '''^sonar-project.properties$''',
     '''^node_modules/(.*?)$''',
   ]
+  commits = []
 
 [whitelist]
   description = "image and html allowlists"
