@@ -1,0 +1,39 @@
+@startuml
+state "Reconnaissance" as Reconnaissance
+state "Scanning" as Scanning
+state "Gaining Access" as GainingAccess
+state "Maintaining Access" as MaintainingAccess
+state "Clearing Tracks" as ClearingTracks
+
+Reconnaissance : ""Google""
+Reconnaissance : ""Wireshark""
+Reconnaissance : ""Shodan""
+Reconnaissance : ""Sherlock""
+
+Scanning : ""DirSearch""
+Scanning : ""Nmap""
+Scanning : ""Nikto""
+Scanning : ""Metasploit""
+
+GainingAccess : ""Dictionary Cracking""
+GainingAccess : ""Brute Force Cracking""
+GainingAccess : ""Metasploit""
+GainingAccess : ""Hydra""
+GainingAccess : ""wifi-pineapple""
+
+MaintainingAccess : ""Backdoors""
+MaintainingAccess : ""Trojan Horse""
+MaintainingAccess : ""Keyloggers""
+
+ClearingTracks : ""Shred""
+ClearingTracks : ""Secure-Delete""
+
+[*] --> Reconnaissance
+
+Reconnaissance -> Scanning
+Scanning -> GainingAccess
+GainingAccess -> MaintainingAccess
+MaintainingAccess -> ClearingTracks
+
+ClearingTracks --> [*]
+@enduml
